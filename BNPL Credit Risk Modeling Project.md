@@ -8,9 +8,6 @@ This project builds a credit risk model for a Buy Now Pay Later (BNPL) platform 
 ## **Business Problem**  
 BNPL platforms provide short-term unsecured credit, making them highly exposed to default risk. The key challenge is to accurately identify customers who are likely to default while minimizing rejection of creditworthy applicants.  
 
-## **Dataset Description**  
-The dataset includes customer demographics, transaction details, repayment behavior, and engineered financial ratios.  
-
 ## **Key Variables:**  
 - Customer Profile: age, employment_type, monthly_income  
 - Creditworthiness: credit_score  
@@ -42,14 +39,6 @@ Although Random Forest achieved higher accuracy, it failed to detect a large num
 The balanced Logistic Regression model was selected because:  
 - It better identifies high-risk customers  
 - It aligns with business objectives of minimizing credit losses
-
-  ## **Exploratory Data Analysis (EDA)**  
-Key insights from the analysis:  
-- Defaulters have significantly lower credit scores  
-- Repayment delay is a strong indicator of default risk   
-- Higher missed payments are associated with increased default probability  
-- Higher loan-to-income ratios indicate financial stress and higher risk  
-- Behavioral variables were found to be more predictive than demographic variables.  
 
 ## **Key Insights**  
 - Repayment behavior is the strongest predictor of default  
