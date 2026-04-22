@@ -29,7 +29,8 @@ Models Used:
 ## **Model Evaluation**  
 **Logistic Regression (Balanced)**  
 - Recall (Default): 63%  
-- Accuracy: 66%  
+- Accuracy: 66%
+
 **Random Forest**  
 - Accuracy: 71%  
 - Recall (Default): 48%  
