@@ -38,13 +38,18 @@ Models Used:
 Although Random Forest achieved higher accuracy, it failed to detect a large number of defaulters.  
 The balanced Logistic Regression model was selected because:  
 - It better identifies high-risk customers  
-- It aligns with business objectives of minimizing credit losses
+- It aligns with business objectives of minimizing credit losses  
 
 ## **Key Insights**  
 - Repayment behavior is the strongest predictor of default  
 - Credit score remains highly relevant  
 - Financial burden (income & ratios) significantly impacts risk  
-- Behavioral variables outperform demographic variables  
+- Behavioral variables outperform demographic variables
+
+## **Limitations**  
+- Dataset may not reflect real-world BNPL behavior  
+- No time-series analysis (static data only)  
+- Model performance can improve with advanced techniques 
 
 ## **Conclusion**  
 This project demonstrates how machine learning can be applied to credit risk modeling in BNPL lending. The results highlight the importance of behavioral signals and affordability metrics in predicting default risk. By aligning model performance with business objectives, the project provides a practical framework for improving lending decisions and reducing financial risk.  
